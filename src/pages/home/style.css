@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    margin: 4rem 0;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 3rem;
+    row-gap: 4rem;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 180px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.753);
+}
+
+span{
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}
+
+a{
+    transition: all 0.3s;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+input{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(105, 28, 28);
+    color: rgb(14, 0, 0);
+    padding: 2rem;
+  }
+
+.background{
+    background-color: rgb(160, 152, 152);
+}
